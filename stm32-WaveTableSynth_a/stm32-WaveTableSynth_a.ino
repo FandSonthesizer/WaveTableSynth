@@ -981,7 +981,7 @@ void doVoice() {
     
     //----------------- Synth Audio Mixer  --------------------
     if (anz > 0){
-      sum = sum >> 1; // divide by 4
+      sum = sum >> 2; // divide by 4
       
      # if defined USE_CLIP_MIX   
       if (sum > pwmVolume2)
